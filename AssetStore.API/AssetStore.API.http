@@ -1,0 +1,6 @@
+@AssetStore.API_HostAddress = http://localhost:5077
+
+GET {{AssetStore.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

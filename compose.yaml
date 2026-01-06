@@ -1,0 +1,7 @@
+﻿services:
+  assetstore.api:
+    image: assetstore.api
+    build:
+      context: .
+      dockerfile: AssetStore.API/Dockerfile
+

@@ -1,12 +1,15 @@
 # Asset-store
 
-Game assets store. Backend via ASP.NET.
+Game asset store. Backend via ASP.NET.
 
-### How to start
-To start - you need to set up postgresql in Docker:
+## How to start
+### Setting up the database
+1. You need to set up postgresql in Docker:
 ```cmd
 > cd .\AssetStore.API\
 > docker-compose up -d
 ```
-Create initial migration
+
+2. Create initial migration
+
 ![img.png](img.png)

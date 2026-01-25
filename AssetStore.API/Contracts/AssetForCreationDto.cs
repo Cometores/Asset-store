@@ -1,6 +1,6 @@
 namespace AssetStore.API.Contracts;
 
 public record AssetForCreationDto(
-    string Title, 
-    string Description, 
+    string Title,
+    string Description,
     decimal Price);

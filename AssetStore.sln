@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.API", "AssetStore.API\AssetStore.API.csproj", "{28552B08-C06C-4CA8-926F-585B0C9F18C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.API", "src\AssetStore.API\AssetStore.API.csproj", "{28552B08-C06C-4CA8-926F-585B0C9F18C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.Core", "AssetStore.Core\AssetStore.Core.csproj", "{94318A6C-5B70-4DFE-BD67-962182DB33D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.Core", "src\AssetStore.Core\AssetStore.Core.csproj", "{94318A6C-5B70-4DFE-BD67-962182DB33D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.DataAccess.Postgres", "AssetStore.DataAccess.Postgres\AssetStore.DataAccess.Postgres.csproj", "{87D6C58A-349C-4285-A912-4164E902BE45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.DataAccess.Postgres", "src\AssetStore.DataAccess.Postgres\AssetStore.DataAccess.Postgres.csproj", "{87D6C58A-349C-4285-A912-4164E902BE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.Application", "AssetStore.Application\AssetStore.Application.csproj", "{4110C88F-366C-48D9-B754-8F9C5653465F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.Application", "src\AssetStore.Application\AssetStore.Application.csproj", "{4110C88F-366C-48D9-B754-8F9C5653465F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7D7B929-0CEA-4CB9-9F87-F338D96471B2}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,7 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 		README.md = README.md
 		.gitignore = .gitignore
+		.github\workflows\ci.yml = .github\workflows\ci.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetStore.Tests", "tests\AssetStore.Tests\AssetStore.Tests.csproj", "{8DF7438A-5D5B-4CA8-BC16-340E32F9B701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,5 +41,9 @@ Global
 		{4110C88F-366C-48D9-B754-8F9C5653465F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4110C88F-366C-48D9-B754-8F9C5653465F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4110C88F-366C-48D9-B754-8F9C5653465F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF7438A-5D5B-4CA8-BC16-340E32F9B701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF7438A-5D5B-4CA8-BC16-340E32F9B701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF7438A-5D5B-4CA8-BC16-340E32F9B701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF7438A-5D5B-4CA8-BC16-340E32F9B701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
